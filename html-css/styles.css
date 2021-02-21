@@ -1,3 +1,64 @@
+header {
+	height: 50px;
+	width: 100vw;
+	background-color: black;
+	color: white;
+	padding-top: 4px;
+	position: sticky;
+}
+
+ul {
+	justify-content: flex-end;
+	color: white;
+	display: flex;
+}
+li {
+	list-style: none;
+}
+.navv {
+	margin-left: 55px;
+}
+li:first-child {
+	margin-right: auto;
+	color: teal;
+}
+section {
+	display: inline-block;
+	vertical-align: top;
+}
+.body-portion {
+	width: 60vw;
+}
+.image {
+	height: 200px;
+	width: 150px;
+	box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.user {
+	height: 150px;
+	width: 115px;
+	margin-top: 15px;
+}
+.sect2 {
+	margin-left: 150px;
+	margin-top: 30px;
+}
+.your-name {
+	margin-top: 0;
+}
+.popular {
+	list-style: ;
+}
+.gallery {
+	display: inline-block;
+	margin-right: 700px;
+}
+a {
+	display: inline-block;
+}
 /* 
 
 these are the colors used in the example

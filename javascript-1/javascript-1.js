@@ -8,8 +8,7 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
-
+let myArr = [4, 'abc', 'cat', 'dog', 'bird', 77]
 
 ////////////////////PROBLEM 2////////////////////
 /*
@@ -20,8 +19,7 @@
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
-
+let foundZ = nestedLetters[2].[1]
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -36,16 +34,14 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
-
+let animals = [...forest, ...ocean, ...savannah, ...desert]
 
 /*
     Now use the spread operator to make a copy of your animals array.
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-//CODE HERE
-
+const animalsCopy = [...animals, 'elephant']
 
 ////////////////////PROBLEM 4////////////////////
 /*
@@ -55,8 +51,9 @@ const desert = ['rattlesnake', 'coyote']
     If the numbers are the same, just return the number.
 */
 
-//CODE HERE
-
+let compareNums = (1, 2) {
+    return (> 1)
+}
   
 ////////////////////PROBLEM 5////////////////////
 /*
@@ -67,16 +64,16 @@ const desert = ['rattlesnake', 'coyote']
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
-  
+let bestMovie = ('Heidi') = return `${bestMovie} is the best movie ever!`   
   
 ////////////////////PROBLEM 6////////////////////
 /*
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
-  
+let jsNinja = (){
+    return 'I am a JavaScript ninja!'
+}  
 
 ////////////////////PROBLEM 7////////////////////
 
@@ -96,8 +93,7 @@ const desert = ['rattlesnake', 'coyote']
     delete the rating property off of the gameInfo object.
 */
 
-//CODE HERE
-  
+gameInfo.splice(5, 1)  
 
 ////////////////////PROBLEM 8////////////////////
 
@@ -118,8 +114,7 @@ const desert = ['rattlesnake', 'coyote']
     looping over the shapes object and deleting any property whose value is odd number.
 */
 
-//CODE HERE
-  
+delete (shapes['triangle', 'pentagon', 'septagon']) 
   
 ////////////////////PROBLEM 9////////////////////
 
@@ -231,8 +226,9 @@ let pairsArray = []
     Tricks will come from that context, so you should reference 'this.tricks' to access the correct array.
 */
 
-//CODE HERE
-
+function teachTrick = (){
+    
+}
 
 /*
     Invoke the bind method on teachTrick, passing in fido as the context and the string 'stay' as a trick.
